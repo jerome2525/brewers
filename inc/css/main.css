@@ -1,0 +1,36 @@
+.brewer-table { 
+  border: solid thin; 
+  border-collapse: collapse; 
+  width: 1060px;
+  display: block;
+  overflow: scroll;
+}
+
+.brewer-table th, 
+.brewer-table td { 
+  border: solid thin;
+  padding: 0.5rem 2rem;
+}
+
+.brewer-table td {
+  white-space: nowrap;
+}
+
+.brewer-table th { 
+  font-weight: normal; 
+}
+
+.brewer-table td { 
+  border-style: none solid; 
+  vertical-align: top; 
+}
+
+.brewer-table th { 
+  padding: 0.2em; 
+  vertical-align: middle; 
+  text-align: center; 
+}
+
+.brewer-table tbody td:first-child::after { 
+  content: leader(". "); '
+}
